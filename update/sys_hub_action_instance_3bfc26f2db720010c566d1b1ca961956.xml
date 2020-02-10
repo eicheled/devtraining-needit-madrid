@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment>Update NeedIt State to Closed Complete</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">b1f721d3db220010c566d1b1ca9619ed</flow>
+        <order>4.1</order>
+        <parent_ui_id>7f0442fd-f226-4678-9829-c976db3539b2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-02-10 05:30:15</sys_created_on>
+        <sys_id>3bfc26f2db720010c566d1b1ca961956</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3bfc26f2db720010c566d1b1ca961956</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-02-10 06:31:57</sys_updated_on>
+        <ui_id>c0d0317b-a163-462c-9bce-fd8244015133</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3bfc26f2db720010c566d1b1ca961956"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3bfc26f2db720010c566d1b1ca961956</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-02-10 05:30:15</sys_created_on>
+        <sys_id>bbfc26f2db720010c566d1b1ca96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-02-10 05:30:15</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3bfc26f2db720010c566d1b1ca961956</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-02-10 05:30:15</sys_created_on>
+        <sys_id>f7fc26f2db720010c566d1b1ca96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-02-10 05:30:15</sys_updated_on>
+        <value>state=50</value>
+        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3bfc26f2db720010c566d1b1ca961956"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3bfc26f2db720010c566d1b1ca961956</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-02-10 05:30:15</sys_created_on>
+        <sys_id>b3fc26f2db720010c566d1b1ca96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-02-10 05:30:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3bfc26f2db720010c566d1b1ca961956</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-02-10 05:30:15</sys_created_on>
+        <sys_id>fffc26f2db720010c566d1b1ca96195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-02-10 05:30:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3bfc26f2db720010c566d1b1ca961956</id>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2020-02-10 05:30:15</sys_created_on>
+        <sys_id>77fc26f2db720010c566d1b1ca96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-02-10 05:30:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
